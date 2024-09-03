@@ -1,0 +1,269 @@
+@tailwind utilities;
+
+@layer utilities {
+   
+  .typography-uppercase {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-display-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-display-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 64px;
+    letter-spacing: -1px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-1-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-1-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 48px;
+    letter-spacing: -0.5px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-2-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-2-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-3-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-3-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 32px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-4-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-4-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-heading-4-bold-underlined {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-small-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-small-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-small-regular-underlined {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-small-bold-underlined {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-tiny-regular {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-tiny-bold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-tiny-regular-underlined {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-tiny-bold-underlined {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-annotation-regular {
+    font-family: "Menlo";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-annotation-bold {
+    font-family: "Menlo";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 150%;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-small-semibold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+   
+  .typography-tiny-semibold {
+    font-family: "Inter";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 20px;
+    letter-spacing: 0px;
+    text-indent: 0px;
+  } 
+
+
+}
