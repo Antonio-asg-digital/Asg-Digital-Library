@@ -3,5 +3,41 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
+    "asg-library": {
+      "projectType": "library",
+      "root": "projects/asg-library",
+      "sourceRoot": "projects/asg-library/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-angular:ng-packagr",
+          "options": {
+            "project": "projects/asg-library/ng-package.json"
+          },
+          "configurations": {
+            "production": {
+              "tsConfig": "projects/asg-library/tsconfig.lib.prod.json"
+            },
+            "development": {
+              "tsConfig": "projects/asg-library/tsconfig.lib.json"
+            }
+          },
+          "defaultConfiguration": "production"
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "tsConfig": "projects/asg-library/tsconfig.spec.json",
+            "polyfills": [
+              "zone.js",
+              "zone.js/testing"
+            ]
+          }
+        }
+      }
+    }
+  },
+  "cli": {
+    "analytics": "06d064a1-f65b-4afe-99dc-ef8f05b9c26d"
   }
 }
