@@ -12,7 +12,8 @@
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
           "options": {
-            "project": "projects/asg-library/ng-package.json"
+            "project": "projects/asg-library/ng-package.json",
+            "styles": "projects/asg-library/src/styles/global-style.css"
           },
           "configurations": {
             "production": {

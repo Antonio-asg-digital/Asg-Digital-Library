@@ -1,10 +1,11 @@
 // src/lib/button/button.component.ts
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import '../../styles/global-styles.css';
 
 @Component({
   selector: 'lib-button',
-  template: `<button (click)="handleClick()">{{ label }}</button>`,
+  template: `<button class="bg-red-500" (click)="handleClick()">{{ label }}</button>`,
   standalone: true,  
   styles: [`button { font-size: 16px; }`],
   imports: [CommonModule]  
