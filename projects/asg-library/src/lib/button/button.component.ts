@@ -1,7 +1,7 @@
 // src/lib/button/button.component.ts
 import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import '../../styles/global-styles.css';
+
 
 @Component({
   selector: 'lib-button',
