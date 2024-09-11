@@ -11,6 +11,9 @@
       "architect": {
         "build": {
           "builder": "@angular-devkit/build-angular:ng-packagr",
+          "styles": [
+              "src/styles.css"
+            ],
           "options": {
             "project": "projects/asg-library/ng-package.json"
       

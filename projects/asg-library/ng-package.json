@@ -3,6 +3,6 @@
   "dest": "../../dist/asg-library",
   "lib": {
     "entryFile": "src/public-api.ts",
-    "styleIncludePaths": ["src/styles.css"]
+    "styleIncludePaths": ["src"]
   }
 }

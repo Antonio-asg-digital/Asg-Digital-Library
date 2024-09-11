@@ -30,8 +30,4 @@ Secondary.args = {
   onClick: () => console.log('Secondary button clicked')
 };
 
-export const Large = Template.bind({});
-Large.args = {
-  label: 'Large Button',
-  onClick: () => console.log('Large button clicked')
-};
+
