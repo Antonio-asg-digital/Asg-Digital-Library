@@ -1,10 +1,12 @@
-// tailwind.config.js
+const variables = require("./projects/asg-library/src/lib/tailwind-variables");
 module.exports = {
-  content: [
-    './projects/**/*.{html,ts}', 
-  ],
+  content: ["./projects/**/*.{html,ts}"],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        ...variables.colors,
+      },
+    },
   },
   plugins: [],
 };
