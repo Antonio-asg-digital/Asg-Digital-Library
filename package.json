@@ -3,9 +3,9 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
-    "postbuild": "cp projects/asg-library/src/styles.scss dist/asg-library/styles.scss",
+    "postbuild": "cp projects/asg-library/src/styles.scss dist/asg-library/styles.scss && cp projects/asg-library/src/lib/tailwind-variables.js dist/asg-library/tailwind-variables.js",
     "start": "ng serve",
-    "build": "ng build",
+    "build": "ng build asg-library",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
     "storybook": "ng run asg-library:storybook",
